@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/lucene-analyzers-smartcn-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/lucene-highlighter-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/lucene-analyzers-common-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/lucene-queries-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/IKAnalyzer_fat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/lucene-core-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jike_Lucene_2/WebRoot/WEB-INF/lib/lucene-queryparser-4.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
