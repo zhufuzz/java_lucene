@@ -1,6 +1,7 @@
  /**  
  *@Description: 分词器demo
- */ 
+ */
+
 package com.jikexuyuan.study;  
 
 import java.io.StringReader;
@@ -25,7 +26,7 @@ public class AnalyzerStudy {
 	 * @param analyzer
 	 * @Author:lulei  
 	 * @Description: 输出分词器处理结果
-	 */
+	 */@SuppressWarnings("all")
 	public static void print(Analyzer analyzer){
 		StringReader stringReader = new StringReader(str);
 		try {
@@ -48,7 +49,7 @@ public class AnalyzerStudy {
 	 * @param args
 	 * @Author:lulei  
 	 * @Description:  
-	 */
+	 */@SuppressWarnings("all")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub  
 		Analyzer analyzer = null;

@@ -21,8 +21,8 @@ import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.log4j.Logger;
 
 import com.jikexuyuan.util.CharsetUtil;
-  
-  
+
+ @SuppressWarnings("all")
 public abstract class CrawlBase {
 	
 	private static Logger log = Logger.getLogger(CrawlBase.class);

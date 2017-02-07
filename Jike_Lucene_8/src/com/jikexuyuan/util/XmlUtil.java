@@ -17,7 +17,7 @@ import javax.xml.bind.Marshaller;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Node;
-  
+ @SuppressWarnings("all")
   
 public class XmlUtil {
 	private static final String noResult = "<result>no result</result>";

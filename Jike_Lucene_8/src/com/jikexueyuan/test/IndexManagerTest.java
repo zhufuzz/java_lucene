@@ -8,7 +8,7 @@ import java.util.HashSet;
 import com.jikexueyuan.lucene.index.manager.IndexManager;
 import com.jikexueyuan.lucene.index.model.ConfigBean;
 import com.jikexueyuan.lucene.index.model.IndexConfig;
-  
+ @SuppressWarnings("all")
 public class IndexManagerTest {
 
 	public static void main(String[] args) {

@@ -18,7 +18,8 @@ import org.apache.lucene.index.IndexWriterConfig.OpenMode;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
-  
+@SuppressWarnings("all")
+
 public class IndexCreate {
 
 	/**  
@@ -38,7 +39,7 @@ public class IndexCreate {
 		IndexWriter indexWrite = null;
 		try {
 			//索引在硬盘上的存储路径
-			directory = FSDirectory.open(new File("D://index/test"));
+			directory = FSDirectory.open(new File("/Users/tzh/Downloads/Jike_lucene_java_practice"));
 			//如果索引处于锁定状态就解锁
 			if (IndexWriter.isLocked(directory)) {
 				IndexWriter.unlock(directory);

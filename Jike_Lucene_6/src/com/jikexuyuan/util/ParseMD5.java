@@ -1,9 +1,9 @@
  /**  
  *@Description:  MD5加密算法  
  */ 
-package com.jikexuyuan.util;  
-  
-  
+package com.jikexuyuan.util;
+
+ @SuppressWarnings("all")
 public class ParseMD5 extends Encrypt{
 	
 	/**

@@ -25,7 +25,7 @@ public class IndexCreate {
 	 * @param args
 	 * @Author:lulei  
 	 * @Description:  
-	 */
+	 */@SuppressWarnings("all")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub  
 		//指定分词技术，这里使用的是标准分词

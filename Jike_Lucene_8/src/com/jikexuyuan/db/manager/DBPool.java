@@ -4,7 +4,7 @@
 package com.jikexuyuan.db.manager;  
 
 import com.jikexuyuan.util.ClassUtil;
-  
+ @SuppressWarnings("all")
   
 public class DBPool {
 	private String poolPath;//数据库连接池的配置文件路径

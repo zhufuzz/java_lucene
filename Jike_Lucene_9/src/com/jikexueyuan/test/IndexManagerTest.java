@@ -22,7 +22,7 @@ import com.jikexueyuan.lucene.index.model.IndexConfig;
 import com.jikexueyuan.lucene.index.model.SearchResultBean;
 import com.jikexueyuan.lucene.index.operation.NRTIndex;
 import com.jikexueyuan.lucene.index.operation.NRTSearch;
-  
+ @SuppressWarnings("all")
 public class IndexManagerTest {
 
 	public static void main(String[] args) throws ParseException {

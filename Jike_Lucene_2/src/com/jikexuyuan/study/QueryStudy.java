@@ -17,7 +17,8 @@ import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TermRangeQuery;
 import org.apache.lucene.search.WildcardQuery;
 import org.apache.lucene.util.Version;
-  
+ @SuppressWarnings("all")
+
 public class QueryStudy {
 
 	/**  

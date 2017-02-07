@@ -1,9 +1,9 @@
  /**  
  *@Description:     
  */ 
-package com.jikexuyuan.util;  
-  
-  
+package com.jikexuyuan.util;
+
+ @SuppressWarnings("all")
 public class ClassUtil {
 	
 	/**

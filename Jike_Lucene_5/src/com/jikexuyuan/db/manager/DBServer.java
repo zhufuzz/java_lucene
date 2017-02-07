@@ -6,7 +6,7 @@ package com.jikexuyuan.db.manager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
-  
+ @SuppressWarnings("all")
 public class DBServer {
 	private DBOperation dbOperation;
 	

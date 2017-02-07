@@ -12,8 +12,8 @@ import info.monitorenter.cpdetector.io.CodepageDetectorProxy;
 import info.monitorenter.cpdetector.io.JChardetFacade;
 import info.monitorenter.cpdetector.io.ParsingDetector;
 import info.monitorenter.cpdetector.io.UnicodeDetector;
-  
-  
+
+ @SuppressWarnings("all")
 public class CharsetUtil {
 	
 	//编码探测器

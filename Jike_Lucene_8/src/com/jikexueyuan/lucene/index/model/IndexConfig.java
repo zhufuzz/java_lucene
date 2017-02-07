@@ -4,7 +4,7 @@
 package com.jikexueyuan.lucene.index.model;  
 
 import java.util.HashSet;
-  
+ @SuppressWarnings("all")
 public class IndexConfig {
 	//系统中配置多个索引
 	private static HashSet<ConfigBean> configBeans;

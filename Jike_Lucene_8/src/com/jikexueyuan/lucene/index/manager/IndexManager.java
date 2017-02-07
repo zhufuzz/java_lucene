@@ -22,7 +22,7 @@ import org.apache.lucene.util.Version;
 
 import com.jikexueyuan.lucene.index.model.ConfigBean;
 import com.jikexueyuan.lucene.index.model.IndexConfig;
-  
+ @SuppressWarnings("all")
 public class IndexManager {
 	private IndexWriter indexWriter;
 	private TrackingIndexWriter trackingIndexWriter;

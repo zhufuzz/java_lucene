@@ -16,7 +16,7 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.util.Version;
 import org.wltea.analyzer.lucene.IKAnalyzer;
-  
+ @SuppressWarnings("all")
 public class AnalyzerStudy {
 	//需要处理的字符串
 	private static String str = "极客学院，Lucene 案例 开发";

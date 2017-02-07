@@ -6,8 +6,8 @@ package com.jikexuyuan.util;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-  
-  
+
+ @SuppressWarnings("all")
 public class JsonUtil {
 	//默认json字符串，null值或错误的情况下返回该值
 	private static final String noData = "{\"result\" : null}";

@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.HashMap;
-  
+ @SuppressWarnings("all")
 public class DBOperation {
 	private String poolName;//数据库连接池别名
 	private Connection con = null;//数据库连接

@@ -8,7 +8,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 import org.logicalcobwebs.proxool.configuration.JAXPConfigurator;
-  
+ @SuppressWarnings("all")
 public class DBManager {
 	
 	private DBManager(){

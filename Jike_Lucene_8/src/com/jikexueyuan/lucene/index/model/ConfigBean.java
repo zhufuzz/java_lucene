@@ -6,7 +6,7 @@ package com.jikexueyuan.lucene.index.model;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.util.Version;
-  
+ @SuppressWarnings("all")
 public class ConfigBean {
 	private String indexName = "index";//索引名
 	private String indexPath = "/index/";//索引硬盘路径

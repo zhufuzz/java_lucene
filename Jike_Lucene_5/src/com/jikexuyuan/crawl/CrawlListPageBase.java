@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import com.jikexuyuan.util.RegexUtil;
-  
+ @SuppressWarnings("all")
 public abstract class CrawlListPageBase extends CrawlBase{
 	//当前页面URL地址
 	private String pageUrl;

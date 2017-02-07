@@ -1,7 +1,7 @@
  /**  
  *@Description:     
  */ 
-package com.jikexuyuan.util;  
+package com.jikexuyuan.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-  
+ @SuppressWarnings("all")
 public class RegexUtil {
 	private static String rootUrlRegex = "(http://.*?/)";
 	private static String currentUrlRegex = "(http://.*/)";

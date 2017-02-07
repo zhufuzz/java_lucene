@@ -23,7 +23,7 @@ public class IndexSearch {
 	 * @param args
 	 * @Author:lulei  
 	 * @Description:  
-	 */
+	 */@SuppressWarnings("all")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub  
 		Directory directory = null;

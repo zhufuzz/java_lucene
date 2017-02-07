@@ -4,7 +4,7 @@
 package com.jikexuyuan.util;  
 
 import java.security.MessageDigest;
-  
+ @SuppressWarnings("all")
   
 public class Encrypt {
 	//MD5加密

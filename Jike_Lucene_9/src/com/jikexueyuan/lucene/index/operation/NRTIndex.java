@@ -9,7 +9,7 @@ import org.apache.lucene.search.NRTManager.TrackingIndexWriter;
 import org.apache.lucene.search.Query;
 
 import com.jikexueyuan.lucene.index.manager.IndexManager;
-  
+ @SuppressWarnings("all")
 public class NRTIndex {
 	private TrackingIndexWriter trackingIndexWriter;
 	private String indexName;

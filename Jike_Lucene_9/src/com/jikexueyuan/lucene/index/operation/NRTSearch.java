@@ -14,7 +14,7 @@ import org.apache.lucene.search.TopDocs;
 
 import com.jikexueyuan.lucene.index.manager.IndexManager;
 import com.jikexueyuan.lucene.index.model.SearchResultBean;
-  
+ @SuppressWarnings("all")
 public class NRTSearch {
 	private IndexManager indexManager;
 
