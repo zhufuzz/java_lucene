@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Jike_Lucene_9:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Jike_Lucene_9_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Jike_Lucene_9" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/antlr-2.7.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/chardet-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/log4j-1.2.13.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/proxool-0.9.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/proxool-cglib.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/IKAnalyzer_fat.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/commons-logging.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/commons-codec-1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/cpdetector_1.0.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/lucene-core-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/jackson-core-2.1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/lucene-queries-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/commons-httpclient-3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/jackson-databind-2.1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/lucene-highlighter-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/lucene-queryparser-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/jackson-annotations-2.1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/lucene-analyzers-common-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/lucene-analyzers-smartcn-4.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Jike_Lucene_9/WebRoot/WEB-INF/lib/mysql-connector-java-3.0.17-ga-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Jike_Lucene_9/web/Web" />
+    </root>
+  </artifact>
+</component>
