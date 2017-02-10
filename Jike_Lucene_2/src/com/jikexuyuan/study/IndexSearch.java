@@ -30,7 +30,7 @@ public class IndexSearch {
 		Directory directory = null;
 		try {
 			//索引硬盘存储路径
-			directory = FSDirectory.open(new File("D://index/test"));
+			directory = FSDirectory.open(new File("/Users/tzh/Downloads/Jike_lucene_java_practice"));
 			//读取索引
 			DirectoryReader dReader = DirectoryReader.open(directory);
 			//创建索引检索对象
@@ -43,7 +43,7 @@ public class IndexSearch {
 			//检索索引，获取符合条件的前10条记录
 			TopDocs topDocs = searcher.search(query, 10);
 			if (topDocs != null) {
-				System.out.println("符合条件的文档总数为：" + topDocs.totalHits);
+				System.out.println("Total qualified file number: " + topDocs.totalHits);
 				//循环输出符合条件的文档
 				for (int i = 0; i < topDocs.scoreDocs.length; i++) {
 					//topDocs.scoreDocs[i].doc 为文档在索引中的id
