@@ -67,6 +67,7 @@ public class IndexCreate {
 			// TODO Auto-generated catch block  
 			e.printStackTrace();
 		}
+
 		
 		//文档二
 		Document doc2 = new Document();
@@ -80,6 +81,9 @@ public class IndexCreate {
 			// TODO Auto-generated catch block  
 			e.printStackTrace();
 		}
+
+
+
 		try {
 			//将indexWrite操作提交，如果不提交，之前的操作将不会保存到硬盘
 			//但是这一步很消耗系统资源，索引执行该操作需要有一定的策略
